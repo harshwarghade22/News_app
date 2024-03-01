@@ -66,7 +66,7 @@ handleNextClick = async () => {
     return (
       <div className='container my-3'>
 
-        <h1 className="text-center"  >NewsMonkey Top headlines in <span  style={{color:'red'}}>{this.props.category}</span></h1>
+        <h1 className="text-center"  >Top headlines by NewsOnTap in <span  style={{color:'red'}}>{this.props.category} </span>today</h1>
         
         <div className="row">
         {this.state.articles.map((element)=>{
